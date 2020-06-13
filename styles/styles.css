@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+body {
+    background-image: url('/static/n8vw_vieques_bkgnd.jpg');
+    max-width: 1024px;
+}
