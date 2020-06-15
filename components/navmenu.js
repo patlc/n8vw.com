@@ -44,6 +44,9 @@ export default function NavMenu() {
       <a href="/about" className="block lg:inline-block text-white hover:text-white m-4">
         About
       </a>
+      <a href="/words" className="block lg:inline-block text-white hover:text-white m-4">
+        Words
+      </a>
     </div>
   </div>
 </nav>
