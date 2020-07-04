@@ -1,4 +1,8 @@
-module.exports = {
+const optimizedImages = require('next-optimized-images');
+const withOptimizedImages = require('next-optimized-images');
+
+
+module.exports = withOptimizedImages({
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
@@ -8,5 +12,6 @@ module.exports = {
             }
         )
         return cfg;
-    }
-}
+    },
+
+});

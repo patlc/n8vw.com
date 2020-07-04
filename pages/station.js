@@ -1,9 +1,26 @@
-import Layout from '../components/layout'
+import Layout from '../components/layout';
+import { NextSeo } from 'next-seo';
 
 
 export default () => {
     return (
         <Layout>
+            <NextSeo
+        title="N8VW | Station"
+        description="Station Description of Amateur Radio Station N8VW"
+        canonical="http://www.n8vw.com/station"
+        openGraph={{
+          url: 'http://www.n8vw.com/station',
+          title: "N8VW | Station",
+          description: 'Amateur Radio Station N8VW',
+          site_name: 'N8VW',
+        }}
+        twitter={{
+          handle: '@radiosport',
+          site: '@radiosport',
+          cardType: 'summary_large_image',
+        }}
+        />
             <article className="text-white p-4">
                 <h3 className="text-4xl">Radios</h3>
                 <ul>
