@@ -7,9 +7,9 @@ export default () => {
             <NextSeo
         title="N8VW | About"
         description="About Amateur Radio Station N8VW"
-        canonical="http://www.n8vw.com/about"
+        canonical="//www.n8vw.com/about"
         openGraph={{
-          url: 'http://www.n8vw.com/about',
+          url: '//www.n8vw.com/about',
           title: "N8VW | About",
           description: 'About Amateur Radio Station N8VW',
           site_name: 'N8VW',
