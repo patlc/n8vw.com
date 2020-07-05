@@ -28,7 +28,7 @@ export default () => {
                 <h4 className="test-4xl font-bold">Nets and Groups</h4>
                 <ul>
                     <ul>OMISS #1031</ul>
-                    <ul>GERATOL #910? (checking)</ul>
+                    <ul>GERATOL #710</ul>
                 </ul>
             </div>
         </Layout>
