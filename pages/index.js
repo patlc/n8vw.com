@@ -24,7 +24,7 @@ export default function Home() {
       <div className="container">
         <article className="w-full mx-auto">
           <h2 className="text-center text-5xl">N8VW</h2>
-          <img src='./static/images/20200610_193602.jpg' alt="N8VW Shack" />
+          <img src={require('/static/images/20200610_193602-1.jpg')} alt="N8VW Shack" />
         </article>
       </div>
     </Layout>
