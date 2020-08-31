@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 import { NextSeo } from 'next-seo';
 
 
-export default () => {
+const Station = () => {
     return (
         <Layout>
             <NextSeo
@@ -45,4 +45,6 @@ export default () => {
             </article>
         </Layout>
     )
-}
+};
+
+export default Station;

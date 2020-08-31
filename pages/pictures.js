@@ -1,7 +1,9 @@
 import Layout from '../components/layout'
 
-export default () => {
+const Pictures = () => {
     return (
         <Layout>Under Construction</Layout>
     )
 }
+
+export default Pictures;
