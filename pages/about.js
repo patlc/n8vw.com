@@ -27,8 +27,8 @@ export default () => {
                 </ul>
                 <h4 className="test-4xl font-bold">Nets and Groups</h4>
                 <ul>
-                    <ul>OMISS #1031</ul>
-                    <ul>GERATOL #710</ul>
+                    <li>OMISS #1031</li>
+                    <li>GERATOL #710</li>
                 </ul>
             </div>
         </Layout>
